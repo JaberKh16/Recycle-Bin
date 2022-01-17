@@ -1,0 +1,11 @@
+body {
+    position: relative;
+}
+
+.pt-6{
+    padding-top: 6rem;
+}
+
+.imgHome{
+    width: 100%;
+}

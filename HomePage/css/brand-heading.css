@@ -1,0 +1,32 @@
+/*#card-image{
+    height: 15rem;
+    margin-bottom: 5px;
+}
+
+#card-style{
+    height: 15rem;
+}
+
+#article-section{
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+
+*/
+#title{
+    color:#45CC00;
+}
+
+#news-title{
+    color:#45CC;
+}
+
+.newColumn{
+    margin:5px;
+    height:200px;
+    background:#33BBFF;
+    align-items:center;
+    justify-content:center;
+    font-size:larger;
+
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+
+/* hebrew */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyysd0mm_00.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+  /* latin */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EuyysdUmm.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+body {
+    background-color: #E7E9F5;
+    font-family: 'Heebo', sans-serif
+}
+
+.card {
+    width: 500px;
+    border: none;
+    border-radius: 20px
+}
+
+.form-control {
+    border-radius: 7px;
+    border: 1.5px solid #E3E6ED
+}
+
+input.form-control:focus {
+    box-shadow: none;
+    border: 1.5px solid #E3E6ED;
+    background-color: #F7F8FD;
+    letter-spacing: 1px
+}
+
+.btn-primary {
+    background-color: #5878FF !important;
+    border-radius: 7px
+}
+
+.btn-primary:focus {
+    box-shadow: none
+}
+
+.text {
+    font-size: 13px;
+    color: #9CA1A4
+}
+
+.price {
+    background: #F5F8FD;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 97px
+}
+
+.flex-row {
+    border: 1px solid #F2F2F4;
+    border-radius: 10px;
+    margin: 0 1px 0
+}
+
+.flex-column p {
+    font-size: 14px
+}
+
+span.mb-2 {
+    font-size: 12px;
+    color: #FFB6AD
+}
+
+h5 span {
+    color: #869099
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        text-align: center
+    }
+
+    .price {
+        border: none;
+        margin: 0 auto
+    }
+}
